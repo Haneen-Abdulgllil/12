@@ -6,72 +6,56 @@
 -   Project description:“Wasale” is a popular delivery company that wants to build a food delivery system that facilitates
 ordering food from different restaurants. The system shall support adding/removing different
 restaurants to the restaurant catalog..
--   Technology used: Nextjs, TailwindCSS, i18next, Husky, Prettier, Eslint, Commitlinter (Conventional Commits)
+-   Technology used: C#, .Net, Springboot, Postgresql, 
 -   Team members:
 
-    -   Abrar Alkhorasani
-    -   Jehad Almaliki
-    -   Mohammed Aljaberi
-    -   Haneen Abdulglil
-    -   Mohammed Basurrah
-    -   Dhiaa Alhaq Shalabi
+    -   Haneen Abdulglil.
+    -   Nageeb
+    -   Khawlah
+    -   Abdulraoof
+    -   Haifa nabeel
 
--   Bootcamp: GIZ YE 2022
+-   Organization: DJIV
 
 ## Installation
 
 ```shell
-npm install -g commitizen // Installs commitizen
-npx husky install         // Installs Husky
-chmod ug+x .husky/*       // Gives husky executable extension
-npm install               // Installs the node modules
+mvn clean install // Installs required depencencies.
 ```
 
 ## Development process
 
 -   When commiting you will have to use `git cz` and then go through the process. Look at the first commit I made to know what that means.
--   The translation process is done using the i18next library. There's an example in the index.js file of how this is done. Check this github project for more info on how to use the i18next library: [i18next](https://github.com/i18next/next-i18next)
--   When writing commits, commitlinter library is used to make sure that your commits are consistent with the conventional commits. To learn more about it refer to the guidelines in Canvas or the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) site.
--   The `layout` folder contains the components that will be used in the layout of pages, so components like the header and footer will be placed there.
 
-Good luck and happy coding :D
 
 ## 🔨 Build
 
-To build this project run
+To build this project
 
-Using npm
-
-```bash
-  npm run build
-```
-
-Using yarn
+Using maven : create java project with maven then installs required depencencies in pom.xml
 
 ```bash
-  yarn build
+  mvn clean install
 ```
+
 
 ## 🚀 Deployment
 
 To deploy this project run
 
 ```bash
-  npm run build
-  npm run start
+
 ```
 
 Use the following command to run the project in development mode
 
 ```bash
-  npm run dev
+
 ```
 
 ## 🚀 Live Demo
 
-![Vercel Status](https://therealsujitk-vercel-badge.vercel.app/?app=idev-therapist.vercel.app)
 
-Deployed on Vercel: [iDev Therapist](https://idev-therapist.vercel.app/)
 
 ## 🌵 Branches
 
@@ -91,6 +75,5 @@ We use an agile continuous integration methodology, so the version is frequently
 **Steps to create a pull request**
 
 1. Make a PR to develop branch.
-2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. It must pass all continuous integration checks and get positive reviews.
-4. After this, changes will be merged to develop branch.
+2. It must pass all continuous integration checks and get positive reviews.
+3. After this, changes will be merged to develop branch.

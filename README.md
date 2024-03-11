@@ -2,8 +2,10 @@
 
 ## Project information
 
--   Project name: [Online Therapist]
--   Project description: This website aims to connect therapists and counselors with those who need help and provide more information about mental health services.
+-   Project name: [Wasale]
+-   Project description:“Wasale” is a popular delivery company that wants to build a food delivery system that facilitates
+ordering food from different restaurants. The system shall support adding/removing different
+restaurants to the restaurant catalog..
 -   Technology used: Nextjs, TailwindCSS, i18next, Husky, Prettier, Eslint, Commitlinter (Conventional Commits)
 -   Team members:
 
